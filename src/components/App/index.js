@@ -1,5 +1,6 @@
 import React from "react";
 import AddCounter from "../../containers/AddCounter";
+import RemoveCounter from "../../containers/RemoveCounter";
 import Counter from "../../containers/Counter";
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <div className="columns">
         <div className="column is-11">
           <AddCounter />
+          <RemoveCounter />
         </div>
       </div>
     </div>
